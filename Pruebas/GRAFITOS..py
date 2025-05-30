@@ -19,7 +19,7 @@ correlation_matrices = {}
 
 # Imprimir el directorio de trabajo actual para depuración
 current_directory = os.getcwd()
-complemento = "NeuroCo_Project/Pruebas/DATA/"
+complemento = "NeuroCo_Project/DATA/"
 current_directory = os.path.join(current_directory,complemento)## correcciones locales 
 print(f"Directorio de trabajo actual: {current_directory}")
 

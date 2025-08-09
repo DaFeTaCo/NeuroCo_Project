@@ -239,7 +239,7 @@ def coherence_multitaper(global_signals_subjects, TR):
 
         tapers, eigs = alg.dpss_windows(n_samples, NW, K)
 
-        print('dimensiones tapers: ' + str(tapers.shape))
+        # print('dimensiones tapers: ' + str(tapers.shape))
 
         tdata = tapers[None, :, :] * pdata[:, None, :]
 
